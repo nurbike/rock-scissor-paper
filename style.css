@@ -1,0 +1,19 @@
+.choosen {
+  display: flex;
+  border: 1px solid pink;
+  height: 400px;
+}
+
+.select {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50px;
+}
+
+.icon {
+  height: 100px;
+}
+
+.rsp {
+  height: 120px;
+}
