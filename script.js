@@ -36,25 +36,25 @@ function computerSelect() {
 
 function game(you, computer) {
     if (you === computer) {
-        console.log("Berabere");
+        document.getElementById("game_result").innerHTML = "Draw";
         return;
     } 
     if (you === "rock") {
         if (computer === "scissors") {
-            console.log("Kazandın");
+            document.getElementById("game_result").innerHTML = "Win";
             return;
         } else {
-            console.log("Kaybettin");
+            document.getElementById("game_result").innerHTML = "Lost";
             return;
         }
     } 
 
     if (you === "scissors") {
         if (computer === "paper") {
-            console.log("Kazandın");
+            document.getElementById("game_result").innerHTML = "Win";
             return;
         } else {
-            console.log("Kaybettin");
+            document.getElementById("game_result").innerHTML = "Lost";
             return;
         }
     } 
